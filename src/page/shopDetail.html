@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shop</title>
+    <link rel="stylesheet" href="../style/output.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+      integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.5.2/flowbite.js"
+      integrity="sha512-6M5hCqw3nHu7dud9mYNt+56Whp1EHYdhB82easVnTYDjn9KQE7hUhftTyer5mJdeJlMEqbWp6+sXRzFgkczOjg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+  </head>
+  <body class="bg-gray-50">
+    <!-- Header Section -->
+    <header class="fixed w-full shadow bg-white z-10">
+      <div class="px-5 py-3 flex justify-between items-center">
+        <!-- Logo -->
+        <a href="#" class="text-xl font-bold text-gray-800">ShopLogo</a>
+
+        <!-- Navigation -->
+        <nav>
+          <ul class="hidden md:flex gap-6 text-gray-600">
+            <li><a href="#" class="hover:text-gray-900">Home</a></li>
+            <li><a href="#" class="hover:text-gray-900">Products</a></li>
+            <li><a href="#" class="hover:text-gray-900">About</a></li>
+            <li><a href="#" class="hover:text-gray-900">Contact</a></li>
+          </ul>
+          <!-- Mobile Menu Button -->
+          <button class="md:hidden text-gray-600">
+            <i class="fas fa-bars"></i>
+          </button>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Main Section -->
+    <main class="pt-16 px-5">
+      <!-- Hero Section -->
+      <section class="text-center py-10 bg-gray-100 rounded-lg">
+        <h1 class="text-4xl font-bold text-gray-800">Welcome to Our Shop</h1>
+        <p class="mt-4 text-gray-600">
+          Find the best products at unbeatable prices.
+        </p>
+        <a
+          href="#products"
+          class="mt-6 inline-block bg-blue-600 text-white py-2 px-4 rounded hover:bg-blue-700"
+          >Shop Now</a
+        >
+      </section>
+
+      <!-- Products Section -->
+      <section id="products" class="py-10">
+        <h2 class="text-2xl font-bold text-gray-800 mb-6">Our Products</h2>
+        <div
+          class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6"
+        >
+          <!-- Product Card -->
+          <div class="bg-white rounded shadow p-4">
+            <img
+              src="https://via.placeholder.com/150"
+              alt="Product"
+              class="w-full h-40 object-cover rounded"
+            />
+            <h3 class="mt-4 text-lg font-semibold text-gray-800">
+              Product Name
+            </h3>
+            <p class="text-gray-600 mt-2">$25.00</p>
+            <button
+              class="mt-4 w-full bg-blue-600 text-white py-2 rounded hover:bg-blue-700"
+            >
+              Add to Cart
+            </button>
+          </div>
+          <!-- Repeat Product Cards -->
+        </div>
+      </section>
+    </main>
+
+    <div class="p-10 bg-red-400 w-20 h-10 fixed"></div>
+    <div
+      style="
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100px;
+        height: 100px;
+        background: red;
+        z-index: 1;
+      "
+    >
+      Fixed Box
+    </div>
+
+    <div
+      style="
+        position: relative;
+        width: 100px;
+        height: 100px;
+        background: blue;
+        z-index: 2;
+        margin-top: 50px;
+      "
+    >
+      Relative Box on Top
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-4 text-center z-10">
+      <p>&copy; 2024 Shop. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
