@@ -7,6 +7,12 @@ module.exports = {
         primaryColor: "#FFD333",
         secondaryColor: "#3D464C",
       },
+      padding: {
+        p4: "34px",
+      },
+      screens: {
+        phone: "1030px",
+      },
     },
   },
   plugins: [],

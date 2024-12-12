@@ -18,6 +18,28 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     ></script>
+    <style>
+      div {
+        position: relative;
+      }
+    </style>
+    <!-- Ids in the navbar a-href and ids in the content should match-->
+
+    <div
+      data-bs-spy="scroll"
+      data-bs-target="#navId"
+      data-bs-smooth-scroll="true"
+    >
+      <div id="navId">
+        <ul class="nav nav-tabs" role="tablist"></ul>
+      </div>
+    </div>
+
+    <script>
+      var scrollSpy = new bootstrap.ScrollSpy(document.body, {
+        target: "#navId",
+      });
+    </script>
   </head>
   <body class="bg-gray-50">
     <!-- Header Section -->

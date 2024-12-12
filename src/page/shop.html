@@ -30,17 +30,19 @@
             >
           </li>
           <li>
-            <a href="#" class="hover:underline hover:underline-offset-1"
+            <a
+              href="../auth/contect.html"
+              class="hover:underline hover:underline-offset-1"
               >Contect</a
             >
           </li>
           <li>
-            <a href="#" class="hover:underline hover:underline-offset-1"
-              >Help</a
-            >
+            <a href="" class="hover:underline hover:underline-offset-1">Help</a>
           </li>
           <li>
-            <a href="#" class="hover:underline hover:underline-offset-1"
+            <a
+              href="./faqs.html"
+              class="hover:underline hover:underline-offset-1"
               >FAQs</a
             >
           </li>
@@ -122,11 +124,13 @@
         </div>
       </div>
       <!-- Nav bar -->
-      <nav class="bg-secondaryColor text-white flex justify-between px-20">
+      <nav
+        class="bg-secondaryColor text-white flex justify-between px-20 py-4 lg:py-0"
+      >
         <div class="flex items-center gap-10">
           <div
-            class="bg-primaryColor text-secondaryColor flex gap-5 items-center px-20 text-2xl py-3"
-            id="multiLevelDropdownButton"
+            class="hidden bg-primaryColor text-secondaryColor lg:flex gap-5 items-center px-20 text-2xl py-3"
+            id="multiLevelDropdownButton "
             data-dropdown-toggle="multi-dropdown"
           >
             <i class="fa-solid fa-bars"></i>
@@ -194,9 +198,9 @@
           <ul class="flex items-center gap-6">
             <li><a href="../../index.html">Home</a></li>
             <li><a href="./shop.html">Shop</a></li>
-            <li><a href="./src/page/shop.html">Shop Detail</a></li>
-            <li><a href="./src/page/shop.html">Pages</a></li>
-            <li><a href="./src/page/shop.html">Contect</a></li>
+            <li><a href="./checkout.html">Checkout</a></li>
+            <li><a href="./about.html">About</a></li>
+            <li><a href="../auth/contect.html">Contect</a></li>
           </ul>
         </div>
         <div class="flex gap-4 items-center">
@@ -238,562 +242,65 @@
         class="fixed top-[182px] left-0 w-64 h-screen transition-transform -translate-x-full sm:translate-x-0 z-10"
         aria-label="Sidebar"
       >
-        <div
-          class="h-full px-3 py-4 overflow-y-auto bg-gray-50 dark:bg-gray-800"
-        >
+        <div class="h-full px-3 py-4 overflow-y-auto dark:bg-gray-800">
           <ul class="space-y-2 font-medium">
             <li>
               <a
-                href="#"
+                href="../category/camera.html"
+                target="camera"
                 class="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group"
               >
-                <span class="ms-3">Dashboard</span>
+                <span class="ms-3">Camera</span>
+              </a>
+            </li>
+            <li>
+              <a
+                href="../category/sneakers.html"
+                target="camera"
+                class="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group"
+              >
+                <span class="ms-3">Sneakers</span>
+              </a>
+            </li>
+            <li>
+              <a
+                href="../category/watch.html"
+                target="camera"
+                class="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group"
+              >
+                <span class="ms-3">Watch</span>
+              </a>
+            </li>
+            <li>
+              <a
+                href="../category/t-shirt.html"
+                target="camera"
+                class="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group"
+              >
+                <span class="ms-3">T-Shirt</span>
+              </a>
+            </li>
+            <li>
+              <a
+                href="../category/dress.html"
+                target="camera"
+                class="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group"
+              >
+                <span class="ms-3">Dress</span>
               </a>
             </li>
           </ul>
         </div>
       </aside>
-
-      <div class="p-4 sm:ml-64 mt-[182px]">
-        <div class="p-4">
-          <!-- This is a card of product  -->
-          <div>
-            <div class="grid grid-cols-4 justify-center items-center gap-6">
-              <!-- Product Card -->
-              <div
-                class="group relative w-[300px] bg-white shadow-lg rounded-lg overflow-hidden"
-              >
-                <div class="relative overflow-hidden">
-                  <!-- Product Image -->
-                  <img
-                    src="../../public/img/imgAll/product-1.jpg"
-                    alt="Product Image"
-                    class="w-full h-64 object-cover transform group-hover:scale-110 transition duration-300"
-                  />
-                  <!-- Hover Icons -->
-                  <div
-                    class="absolute inset-0 flex justify-center items-center gap-3 bg-black bg-opacity-30 opacity-0 group-hover:opacity-100 transition duration-300"
-                  >
-                    <button
-                      class="border border-primaryColor p-2 rounded-sm shadow hover:bg-primaryColor text-white hover:text-secondaryColor"
-                    >
-                      <i class="fa-solid fa-cart-shopping"></i>
-                    </button>
-                    <button
-                      class="border border-primaryColor p-2 rounded-sm shadow hover:bg-primaryColor text-white hover:text-secondaryColor"
-                    >
-                      <i class="fa-solid fa-heart"></i>
-                    </button>
-                    <button
-                      class="border border-primaryColor p-2 rounded-sm shadow hover:bg-primaryColor text-white hover:text-secondaryColor"
-                    >
-                      🔄
-                    </button>
-                    <button
-                      class="border border-primaryColor p-2 rounded-sm shadow hover:bg-primaryColor text-white hover:text-secondaryColor"
-                    >
-                      <i class="fa-solid fa-magnifying-glass"></i>
-                    </button>
-                  </div>
-                </div>
-                <!-- Product Details -->
-                <div class="p-4">
-                  <h2 class="text-gray-700 font-bold text-lg truncate">
-                    Name Of Product
-                  </h2>
-                  <p>
-                    This is a description of product and we will give you a lot
-                    of infomation about this product
-                  </p>
-                  <div class="flex items-center justify-between mt-2">
-                    <div class="text-gray-900 text-md flex gap-2">
-                      <p>$123.00</p>
-                      <p class="text-red-600 line-through">$150.00</p>
-                    </div>
-                    <div>
-                      <i class="fa-solid fa-star text-yellow-400"></i>
-                      <i class="fa-solid fa-star text-yellow-400"></i>
-                      <i class="fa-solid fa-star text-yellow-400"></i>
-                      <i class="fa-solid fa-star text-yellow-400"></i>
-                      <i class="fa-solid fa-star"></i>
-                    </div>
-                  </div>
-                  <a
-                    class="flex justify-center rounded bg-primaryColor px-5 py-2 text-sm font-medium transition hover:-rotate-2 hover:scale-110 text-secondaryColor my-2"
-                    href="#"
-                  >
-                    Buy
-                  </a>
-                </div>
-              </div>
-              <div
-                class="group relative w-[300px] bg-white shadow-lg rounded-lg overflow-hidden"
-              >
-                <div class="relative overflow-hidden">
-                  <!-- Product Image -->
-                  <img
-                    src="../../public/img/imgAll/product-1.jpg"
-                    alt="Product Image"
-                    class="w-full h-64 object-cover transform group-hover:scale-110 transition duration-300"
-                  />
-                  <!-- Hover Icons -->
-                  <div
-                    class="absolute inset-0 flex justify-center items-center gap-3 bg-black bg-opacity-30 opacity-0 group-hover:opacity-100 transition duration-300"
-                  >
-                    <button
-                      class="border border-primaryColor p-2 rounded-sm shadow hover:bg-primaryColor text-white hover:text-secondaryColor"
-                    >
-                      <i class="fa-solid fa-cart-shopping"></i>
-                    </button>
-                    <button
-                      class="border border-primaryColor p-2 rounded-sm shadow hover:bg-primaryColor text-white hover:text-secondaryColor"
-                    >
-                      <i class="fa-solid fa-heart"></i>
-                    </button>
-                    <button
-                      class="border border-primaryColor p-2 rounded-sm shadow hover:bg-primaryColor text-white hover:text-secondaryColor"
-                    >
-                      🔄
-                    </button>
-                    <button
-                      class="border border-primaryColor p-2 rounded-sm shadow hover:bg-primaryColor text-white hover:text-secondaryColor"
-                    >
-                      <i class="fa-solid fa-magnifying-glass"></i>
-                    </button>
-                  </div>
-                </div>
-                <!-- Product Details -->
-                <div class="p-4">
-                  <h2 class="text-gray-700 font-bold text-lg truncate">
-                    Name Of Product
-                  </h2>
-                  <p>
-                    This is a description of product and we will give you a lot
-                    of infomation about this product
-                  </p>
-                  <div class="flex items-center justify-between mt-2">
-                    <div class="text-gray-900 text-md flex gap-2">
-                      <p>$123.00</p>
-                      <p class="text-red-600 line-through">$150.00</p>
-                    </div>
-                    <div>
-                      <i class="fa-solid fa-star text-yellow-400"></i>
-                      <i class="fa-solid fa-star text-yellow-400"></i>
-                      <i class="fa-solid fa-star text-yellow-400"></i>
-                      <i class="fa-solid fa-star text-yellow-400"></i>
-                      <i class="fa-solid fa-star"></i>
-                    </div>
-                  </div>
-                  <a
-                    class="flex justify-center rounded bg-primaryColor px-5 py-2 text-sm font-medium transition hover:-rotate-2 hover:scale-110 text-secondaryColor my-2"
-                    href="#"
-                  >
-                    Buy
-                  </a>
-                </div>
-              </div>
-              <div
-                class="group relative w-[300px] bg-white shadow-lg rounded-lg overflow-hidden"
-              >
-                <div class="relative overflow-hidden">
-                  <!-- Product Image -->
-                  <img
-                    src="../../public/img/imgAll/product-1.jpg"
-                    alt="Product Image"
-                    class="w-full h-64 object-cover transform group-hover:scale-110 transition duration-300"
-                  />
-                  <!-- Hover Icons -->
-                  <div
-                    class="absolute inset-0 flex justify-center items-center gap-3 bg-black bg-opacity-30 opacity-0 group-hover:opacity-100 transition duration-300"
-                  >
-                    <button
-                      class="border border-primaryColor p-2 rounded-sm shadow hover:bg-primaryColor text-white hover:text-secondaryColor"
-                    >
-                      <i class="fa-solid fa-cart-shopping"></i>
-                    </button>
-                    <button
-                      class="border border-primaryColor p-2 rounded-sm shadow hover:bg-primaryColor text-white hover:text-secondaryColor"
-                    >
-                      <i class="fa-solid fa-heart"></i>
-                    </button>
-                    <button
-                      class="border border-primaryColor p-2 rounded-sm shadow hover:bg-primaryColor text-white hover:text-secondaryColor"
-                    >
-                      🔄
-                    </button>
-                    <button
-                      class="border border-primaryColor p-2 rounded-sm shadow hover:bg-primaryColor text-white hover:text-secondaryColor"
-                    >
-                      <i class="fa-solid fa-magnifying-glass"></i>
-                    </button>
-                  </div>
-                </div>
-                <!-- Product Details -->
-                <div class="p-4">
-                  <h2 class="text-gray-700 font-bold text-lg truncate">
-                    Name Of Product
-                  </h2>
-                  <p>
-                    This is a description of product and we will give you a lot
-                    of infomation about this product
-                  </p>
-                  <div class="flex items-center justify-between mt-2">
-                    <div class="text-gray-900 text-md flex gap-2">
-                      <p>$123.00</p>
-                      <p class="text-red-600 line-through">$150.00</p>
-                    </div>
-                    <div>
-                      <i class="fa-solid fa-star text-yellow-400"></i>
-                      <i class="fa-solid fa-star text-yellow-400"></i>
-                      <i class="fa-solid fa-star text-yellow-400"></i>
-                      <i class="fa-solid fa-star text-yellow-400"></i>
-                      <i class="fa-solid fa-star"></i>
-                    </div>
-                  </div>
-                  <a
-                    class="flex justify-center rounded bg-primaryColor px-5 py-2 text-sm font-medium transition hover:-rotate-2 hover:scale-110 text-secondaryColor my-2"
-                    href="#"
-                  >
-                    Buy
-                  </a>
-                </div>
-              </div>
-              <div
-                class="group relative w-[300px] bg-white shadow-lg rounded-lg overflow-hidden"
-              >
-                <div class="relative overflow-hidden">
-                  <!-- Product Image -->
-                  <img
-                    src="../../public/img/imgAll/product-1.jpg"
-                    alt="Product Image"
-                    class="w-full h-64 object-cover transform group-hover:scale-110 transition duration-300"
-                  />
-                  <!-- Hover Icons -->
-                  <div
-                    class="absolute inset-0 flex justify-center items-center gap-3 bg-black bg-opacity-30 opacity-0 group-hover:opacity-100 transition duration-300"
-                  >
-                    <button
-                      class="border border-primaryColor p-2 rounded-sm shadow hover:bg-primaryColor text-white hover:text-secondaryColor"
-                    >
-                      <i class="fa-solid fa-cart-shopping"></i>
-                    </button>
-                    <button
-                      class="border border-primaryColor p-2 rounded-sm shadow hover:bg-primaryColor text-white hover:text-secondaryColor"
-                    >
-                      <i class="fa-solid fa-heart"></i>
-                    </button>
-                    <button
-                      class="border border-primaryColor p-2 rounded-sm shadow hover:bg-primaryColor text-white hover:text-secondaryColor"
-                    >
-                      🔄
-                    </button>
-                    <button
-                      class="border border-primaryColor p-2 rounded-sm shadow hover:bg-primaryColor text-white hover:text-secondaryColor"
-                    >
-                      <i class="fa-solid fa-magnifying-glass"></i>
-                    </button>
-                  </div>
-                </div>
-                <!-- Product Details -->
-                <div class="p-4">
-                  <h2 class="text-gray-700 font-bold text-lg truncate">
-                    Name Of Product
-                  </h2>
-                  <p>
-                    This is a description of product and we will give you a lot
-                    of infomation about this product
-                  </p>
-                  <div class="flex items-center justify-between mt-2">
-                    <div class="text-gray-900 text-md flex gap-2">
-                      <p>$123.00</p>
-                      <p class="text-red-600 line-through">$150.00</p>
-                    </div>
-                    <div>
-                      <i class="fa-solid fa-star text-yellow-400"></i>
-                      <i class="fa-solid fa-star text-yellow-400"></i>
-                      <i class="fa-solid fa-star text-yellow-400"></i>
-                      <i class="fa-solid fa-star text-yellow-400"></i>
-                      <i class="fa-solid fa-star"></i>
-                    </div>
-                  </div>
-                  <a
-                    class="flex justify-center rounded bg-primaryColor px-5 py-2 text-sm font-medium transition hover:-rotate-2 hover:scale-110 text-secondaryColor my-2"
-                    href="#"
-                  >
-                    Buy
-                  </a>
-                </div>
-              </div>
-              <div
-                class="group relative w-[300px] bg-white shadow-lg rounded-lg overflow-hidden"
-              >
-                <div class="relative overflow-hidden">
-                  <!-- Product Image -->
-                  <img
-                    src="../../public/img/imgAll/product-1.jpg"
-                    alt="Product Image"
-                    class="w-full h-64 object-cover transform group-hover:scale-110 transition duration-300"
-                  />
-                  <!-- Hover Icons -->
-                  <div
-                    class="absolute inset-0 flex justify-center items-center gap-3 bg-black bg-opacity-30 opacity-0 group-hover:opacity-100 transition duration-300"
-                  >
-                    <button
-                      class="border border-primaryColor p-2 rounded-sm shadow hover:bg-primaryColor text-white hover:text-secondaryColor"
-                    >
-                      <i class="fa-solid fa-cart-shopping"></i>
-                    </button>
-                    <button
-                      class="border border-primaryColor p-2 rounded-sm shadow hover:bg-primaryColor text-white hover:text-secondaryColor"
-                    >
-                      <i class="fa-solid fa-heart"></i>
-                    </button>
-                    <button
-                      class="border border-primaryColor p-2 rounded-sm shadow hover:bg-primaryColor text-white hover:text-secondaryColor"
-                    >
-                      🔄
-                    </button>
-                    <button
-                      class="border border-primaryColor p-2 rounded-sm shadow hover:bg-primaryColor text-white hover:text-secondaryColor"
-                    >
-                      <i class="fa-solid fa-magnifying-glass"></i>
-                    </button>
-                  </div>
-                </div>
-                <!-- Product Details -->
-                <div class="p-4">
-                  <h2 class="text-gray-700 font-bold text-lg truncate">
-                    Name Of Product
-                  </h2>
-                  <p>
-                    This is a description of product and we will give you a lot
-                    of infomation about this product
-                  </p>
-                  <div class="flex items-center justify-between mt-2">
-                    <div class="text-gray-900 text-md flex gap-2">
-                      <p>$123.00</p>
-                      <p class="text-red-600 line-through">$150.00</p>
-                    </div>
-                    <div>
-                      <i class="fa-solid fa-star text-yellow-400"></i>
-                      <i class="fa-solid fa-star text-yellow-400"></i>
-                      <i class="fa-solid fa-star text-yellow-400"></i>
-                      <i class="fa-solid fa-star text-yellow-400"></i>
-                      <i class="fa-solid fa-star"></i>
-                    </div>
-                  </div>
-                  <a
-                    class="flex justify-center rounded bg-primaryColor px-5 py-2 text-sm font-medium transition hover:-rotate-2 hover:scale-110 text-secondaryColor my-2"
-                    href="#"
-                  >
-                    Buy
-                  </a>
-                </div>
-              </div>
-              <div
-                class="group relative w-[300px] bg-white shadow-lg rounded-lg overflow-hidden"
-              >
-                <div class="relative overflow-hidden">
-                  <!-- Product Image -->
-                  <img
-                    src="../../public/img/imgAll/product-1.jpg"
-                    alt="Product Image"
-                    class="w-full h-64 object-cover transform group-hover:scale-110 transition duration-300"
-                  />
-                  <!-- Hover Icons -->
-                  <div
-                    class="absolute inset-0 flex justify-center items-center gap-3 bg-black bg-opacity-30 opacity-0 group-hover:opacity-100 transition duration-300"
-                  >
-                    <button
-                      class="border border-primaryColor p-2 rounded-sm shadow hover:bg-primaryColor text-white hover:text-secondaryColor"
-                    >
-                      <i class="fa-solid fa-cart-shopping"></i>
-                    </button>
-                    <button
-                      class="border border-primaryColor p-2 rounded-sm shadow hover:bg-primaryColor text-white hover:text-secondaryColor"
-                    >
-                      <i class="fa-solid fa-heart"></i>
-                    </button>
-                    <button
-                      class="border border-primaryColor p-2 rounded-sm shadow hover:bg-primaryColor text-white hover:text-secondaryColor"
-                    >
-                      🔄
-                    </button>
-                    <button
-                      class="border border-primaryColor p-2 rounded-sm shadow hover:bg-primaryColor text-white hover:text-secondaryColor"
-                    >
-                      <i class="fa-solid fa-magnifying-glass"></i>
-                    </button>
-                  </div>
-                </div>
-                <!-- Product Details -->
-                <div class="p-4">
-                  <h2 class="text-gray-700 font-bold text-lg truncate">
-                    Name Of Product
-                  </h2>
-                  <p>
-                    This is a description of product and we will give you a lot
-                    of infomation about this product
-                  </p>
-                  <div class="flex items-center justify-between mt-2">
-                    <div class="text-gray-900 text-md flex gap-2">
-                      <p>$123.00</p>
-                      <p class="text-red-600 line-through">$150.00</p>
-                    </div>
-                    <div>
-                      <i class="fa-solid fa-star text-yellow-400"></i>
-                      <i class="fa-solid fa-star text-yellow-400"></i>
-                      <i class="fa-solid fa-star text-yellow-400"></i>
-                      <i class="fa-solid fa-star text-yellow-400"></i>
-                      <i class="fa-solid fa-star"></i>
-                    </div>
-                  </div>
-                  <a
-                    class="flex justify-center rounded bg-primaryColor px-5 py-2 text-sm font-medium transition hover:-rotate-2 hover:scale-110 text-secondaryColor my-2"
-                    href="#"
-                  >
-                    Buy
-                  </a>
-                </div>
-              </div>
-              <div
-                class="group relative w-[300px] bg-white shadow-lg rounded-lg overflow-hidden"
-              >
-                <div class="relative overflow-hidden">
-                  <!-- Product Image -->
-                  <img
-                    src="../../public/img/imgAll/product-1.jpg"
-                    alt="Product Image"
-                    class="w-full h-64 object-cover transform group-hover:scale-110 transition duration-300"
-                  />
-                  <!-- Hover Icons -->
-                  <div
-                    class="absolute inset-0 flex justify-center items-center gap-3 bg-black bg-opacity-30 opacity-0 group-hover:opacity-100 transition duration-300"
-                  >
-                    <button
-                      class="border border-primaryColor p-2 rounded-sm shadow hover:bg-primaryColor text-white hover:text-secondaryColor"
-                    >
-                      <i class="fa-solid fa-cart-shopping"></i>
-                    </button>
-                    <button
-                      class="border border-primaryColor p-2 rounded-sm shadow hover:bg-primaryColor text-white hover:text-secondaryColor"
-                    >
-                      <i class="fa-solid fa-heart"></i>
-                    </button>
-                    <button
-                      class="border border-primaryColor p-2 rounded-sm shadow hover:bg-primaryColor text-white hover:text-secondaryColor"
-                    >
-                      🔄
-                    </button>
-                    <button
-                      class="border border-primaryColor p-2 rounded-sm shadow hover:bg-primaryColor text-white hover:text-secondaryColor"
-                    >
-                      <i class="fa-solid fa-magnifying-glass"></i>
-                    </button>
-                  </div>
-                </div>
-                <!-- Product Details -->
-                <div class="p-4">
-                  <h2 class="text-gray-700 font-bold text-lg truncate">
-                    Name Of Product
-                  </h2>
-                  <p>
-                    This is a description of product and we will give you a lot
-                    of infomation about this product
-                  </p>
-                  <div class="flex items-center justify-between mt-2">
-                    <div class="text-gray-900 text-md flex gap-2">
-                      <p>$123.00</p>
-                      <p class="text-red-600 line-through">$150.00</p>
-                    </div>
-                    <div>
-                      <i class="fa-solid fa-star text-yellow-400"></i>
-                      <i class="fa-solid fa-star text-yellow-400"></i>
-                      <i class="fa-solid fa-star text-yellow-400"></i>
-                      <i class="fa-solid fa-star text-yellow-400"></i>
-                      <i class="fa-solid fa-star"></i>
-                    </div>
-                  </div>
-                  <a
-                    class="flex justify-center rounded bg-primaryColor px-5 py-2 text-sm font-medium transition hover:-rotate-2 hover:scale-110 text-secondaryColor my-2"
-                    href="#"
-                  >
-                    Buy
-                  </a>
-                </div>
-              </div>
-              <div
-                class="group relative w-[300px] bg-white shadow-lg rounded-lg overflow-hidden"
-              >
-                <div class="relative overflow-hidden">
-                  <!-- Product Image -->
-                  <img
-                    src="../../public/img/imgAll/product-1.jpg"
-                    alt="Product Image"
-                    class="w-full h-64 object-cover transform group-hover:scale-110 transition duration-300"
-                  />
-                  <!-- Hover Icons -->
-                  <div
-                    class="absolute inset-0 flex justify-center items-center gap-3 bg-black bg-opacity-30 opacity-0 group-hover:opacity-100 transition duration-300"
-                  >
-                    <button
-                      class="border border-primaryColor p-2 rounded-sm shadow hover:bg-primaryColor text-white hover:text-secondaryColor"
-                    >
-                      <i class="fa-solid fa-cart-shopping"></i>
-                    </button>
-                    <button
-                      class="border border-primaryColor p-2 rounded-sm shadow hover:bg-primaryColor text-white hover:text-secondaryColor"
-                    >
-                      <i class="fa-solid fa-heart"></i>
-                    </button>
-                    <button
-                      class="border border-primaryColor p-2 rounded-sm shadow hover:bg-primaryColor text-white hover:text-secondaryColor"
-                    >
-                      🔄
-                    </button>
-                    <button
-                      class="border border-primaryColor p-2 rounded-sm shadow hover:bg-primaryColor text-white hover:text-secondaryColor"
-                    >
-                      <i class="fa-solid fa-magnifying-glass"></i>
-                    </button>
-                  </div>
-                </div>
-                <!-- Product Details -->
-                <div class="p-4">
-                  <h2 class="text-gray-700 font-bold text-lg truncate">
-                    Name Of Product
-                  </h2>
-                  <p>
-                    This is a description of product and we will give you a lot
-                    of infomation about this product
-                  </p>
-                  <div class="flex items-center justify-between mt-2">
-                    <div class="text-gray-900 text-md flex gap-2">
-                      <p>$123.00</p>
-                      <p class="text-red-600 line-through">$150.00</p>
-                    </div>
-                    <div>
-                      <i class="fa-solid fa-star text-yellow-400"></i>
-                      <i class="fa-solid fa-star text-yellow-400"></i>
-                      <i class="fa-solid fa-star text-yellow-400"></i>
-                      <i class="fa-solid fa-star text-yellow-400"></i>
-                      <i class="fa-solid fa-star"></i>
-                    </div>
-                  </div>
-                  <a
-                    class="flex justify-center rounded bg-primaryColor px-5 py-2 text-sm font-medium transition hover:-rotate-2 hover:scale-110 text-secondaryColor my-2"
-                    href="#"
-                  >
-                    Buy
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!-- The end of card -->
-        </div>
-      </div>
     </main>
+    <iframe
+      src="../category/camera.html"
+      width="1200px"
+      height="1000px"
+      style="margin-left: 290px; margin-top: 183px; padding: 5px"
+      name="camera"
+    >
+    </iframe>
 
     <script src="https://cdn.jsdelivr.net/npm/flowbite@2.5.2/dist/flowbite.min.js"></script>
 
