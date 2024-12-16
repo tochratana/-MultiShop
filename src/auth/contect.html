@@ -4,10 +4,210 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../style/output.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+      integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <title>Document</title>
   </head>
   <body>
-    <section class="py-10 bg-gray-100 sm:py-16 lg:py-24">
+    <header class="fixed w-full top-0 bg-white z-10">
+      <!-- Banner -->
+      <div class="px-5 py-2 flex justify-between bg-gray-100 items-center">
+        <ul class="flex gap-5">
+          <li>
+            <a href="#" class="hover:underline hover:underline-offset-1"
+              >About</a
+            >
+          </li>
+          <li>
+            <a
+              href="./contect.html"
+              class="hover:underline hover:underline-offset-1"
+              >Contect</a
+            >
+          </li>
+          <li>
+            <a href="" class="hover:underline hover:underline-offset-1">Help</a>
+          </li>
+          <li>
+            <a
+              href="../page/faqs.html"
+              class="hover:underline hover:underline-offset-1"
+              >FAQs</a
+            >
+          </li>
+        </ul>
+        <!-- Account type of Money Language -->
+        <div class="flex">
+          <button
+            class="text-black bg-white hover:bg-gray-300 font-medium text-sm px-3 py-2.5 text-center inline-flex items-center"
+            type="button"
+          >
+            My Account
+          </button>
+          <button
+            class="text-black bg-white hover:bg-gray-300 font-medium text-sm px-3 py-2.5 text-center inline-flex items-center"
+            type="button"
+          >
+            USA
+          </button>
+          <button
+            class="text-black bg-white hover:bg-gray-300 font-medium text-sm px-3 py-2.5 text-center inline-flex items-center"
+            type="button"
+          >
+            Eng
+          </button>
+        </div>
+      </div>
+      <!-- Search and logo -->
+      <div
+        class="flex lg:flex-row flex-col gap-10 lg:gap-0 items-center px-10 py-2"
+      >
+        <a href="../../index.html" class="text-4xl font-bold">
+          <span class="text-primaryColor bg-secondaryColor">MULTI</span
+          ><span class="bg-primaryColor text-secondaryColor">SHOP</span>
+        </a>
+        <form class="w-[400px] mx-auto">
+          <label
+            for="default-search"
+            class="mb-2 text-sm font-medium text-gray-900 sr-only dark:text-white"
+            >Search</label
+          >
+          <div class="relative">
+            <div
+              class="absolute inset-y-0 start-0 flex items-center ps-3 pointer-events-none"
+            >
+              <svg
+                class="w-4 h-4 text-gray-500 dark:text-gray-400"
+                aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 20 20"
+              >
+                <path
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="m19 19-4-4m0-7A7 7 0 1 1 1 8a7 7 0 0 1 14 0Z"
+                />
+              </svg>
+            </div>
+            <input
+              type="search"
+              id="default-search"
+              class="w-full p-4 ps-10 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50"
+              placeholder="Search Mockups, Logos..."
+              required
+            />
+            <button
+              type="submit"
+              class="text-secondaryColor absolute end-2.5 bottom-2.5 bg-primaryColor font-medium rounded-lg text-sm px-4 py-2"
+            >
+              Search
+            </button>
+          </div>
+        </form>
+        <div class="flex flex-col items-center">
+          <p>Customer Service</p>
+          <p>+855 88 64 65 190</p>
+        </div>
+      </div>
+      <!-- Nav bar -->
+      <nav
+        class="bg-secondaryColor text-white flex justify-between px-20 py-4 lg:py-0"
+      >
+        <div class="flex items-center gap-10">
+          <div
+            class="hidden bg-primaryColor text-secondaryColor lg:flex gap-5 items-center px-20 text-2xl py-3"
+            id="multiLevelDropdownButton "
+            data-dropdown-toggle="multi-dropdown"
+          >
+            <i class="fa-solid fa-bars"></i>
+            <button>Category</button>
+          </div>
+          <!-- Example -->
+          <div
+            id="multi-dropdown"
+            class="absolute z-50 hidden bg-white divide-y divide-gray-100 rounded-lg shadow w-[300px]"
+          >
+            <ul class="py-2 text-[16px] text-gray-700 dark:text-gray-200">
+              <li><a href="#" class="block px-4 py-2 text-black">Dress</a></li>
+              <li>
+                <button
+                  id="doubleDropdownButton"
+                  data-dropdown-toggle="doubleDropdown"
+                  data-dropdown-placement="right-start"
+                  type="button"
+                  class="flex items-center justify-between w-full px-4 py-2 text-black"
+                >
+                  Chair
+                  <svg
+                    class="w-2.5 h-2.5 ms-3 rtl:rotate-180"
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 6 10"
+                  >
+                    <path
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="m1 9 4-4-4-4"
+                    />
+                  </svg>
+                </button>
+                <div
+                  id="doubleDropdown"
+                  class="absolute z-50 hidden bg-white divide-y divide-gray-100 rounded-lg shadow w-44"
+                >
+                  <ul class="py-2 text-[16px] text-black">
+                    <li>
+                      <a href="#" class="block px-4 py-2 text-black"
+                        >Chair Gaming</a
+                      >
+                    </li>
+                    <li>
+                      <a href="#" class="block px-4 py-2 text-black"
+                        >My downloads</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </li>
+              <li>
+                <a href="#" class="block px-4 py-2 text-black">Earnings</a>
+              </li>
+              <li>
+                <a href="#" class="block px-4 py-2 text-black">Sign out</a>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Example -->
+          <ul class="flex items-center gap-6">
+            <li><a href="../../index.html">Home</a></li>
+            <li><a href="../page/shop.html">Shop</a></li>
+            <li><a href="../page/checkout.html">Checkout</a></li>
+            <li><a href="../page/about.html">About</a></li>
+            <li><a href="../auth/contect.html">Contect</a></li>
+          </ul>
+        </div>
+        <div class="flex gap-4 items-center">
+          <div class="flex items-center gap-1">
+            <i class="fa-solid fa-heart text-primaryColor"></i>0
+          </div>
+          <div class="flex items-center gap-1">
+            <i class="fa-solid fa-cart-shopping text-primaryColor"></i>0
+          </div>
+        </div>
+      </nav>
+    </header>
+    <section class="py-10 bg-gray-100 sm:py-16 lg:py-24 mt-[183px]">
       <div class="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
         <div class="max-w-2xl mx-auto text-center">
           <h2
